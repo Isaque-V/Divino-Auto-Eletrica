@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  background-color: #003049;
+  justify-content: space-between;
+  margin: 0px 227px;
+  clip-path: polygon(0% 0%, 100% 0%, 93% 50%, 36% 50%, 28% 100%, 0 100%);
+  padding-right: 40px;
+}
+.HeaderMenu {
+  display: flex;
+}
+.HeaderMenu li {
+  padding: 20px;
+}
+.HeaderMenu a {
+  color: #fff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 32px;
+}
+
+@media (max-width: 800px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #003049;
+    clip-path: none;
+    margin: 0px;
+    padding: 5px;
+    align-items: center;
+  }
+  header img {
+    width: 150px;
+  }
+
+  .HeaderMenu a {
+    font-size: 32px;
+  }
+}

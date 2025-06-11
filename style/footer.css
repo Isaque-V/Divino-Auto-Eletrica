@@ -1,0 +1,47 @@
+footer {
+  background: url("/Imagens/Imagens/BgFinal.png");
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 82px;
+  padding: 42px 80px 40px 80px;
+  align-content: center;
+}
+
+footer h2 {
+  color: #fff;
+  font-size: 64px;
+}
+.ContatoRede {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 20px;
+}
+.ContatoRede li {
+  display: flex;
+  margin-top: 12px;
+  gap: 12px;
+}
+footer span {
+  color: #bcefff;
+  font-size: 24px;
+}
+.Botao {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  color: #fff;
+  padding: 20px;
+  background: linear-gradient(#ff0000, #001e2d);
+  border: 3px solid #001e2d;
+  border-radius: 3px;
+}
+@media (max-width: 800px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+  footer h2 {
+    font-size: 60px;
+    word-wrap: break-word;
+  }
+}

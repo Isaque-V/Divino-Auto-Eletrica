@@ -1,0 +1,47 @@
+.LocalizacaoBg {
+  background-color: #d5e8f2;
+}
+.LocalizacaoBg h2 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  color: #003049;
+  padding-top: 80px;
+  margin: 0 120px 40px 80px;
+  letter-spacing: 4px;
+}
+
+.LocalizacaoMapa {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  margin: 0 120px 0 80px;
+  padding-bottom: 216px;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+}
+.LocalizacaoMapa div {
+  background-color: #f5f0e6;
+  padding: 12px;
+  box-shadow: 0 0 25.1px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.LocalizacaoMapaDesc {
+  background-color: #f2fcff;
+  padding: 80px 20px;
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  .LocalizacaoBg h2 {
+    font-size: 80px;
+    color: #003049;
+    text-align: center;
+  }
+  .LocalizacaoMapa {
+    grid-template-columns: 1fr;
+  }
+  .LocalizacaoMapaDesc {
+    display: none;
+  }
+}
