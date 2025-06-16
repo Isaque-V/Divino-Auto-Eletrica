@@ -1,10 +1,10 @@
 body {
-  width: 1440px;
+  max-width: 1440px;
   background-color: #011b32;
 }
 .BgImgIntroducao {
   background: url("/Imagens/Imagens/BgIntroducao.png");
-  width: 100%;
+  width: auto;
   background-repeat: no-repeat;
 }
 main {
@@ -46,15 +46,16 @@ main {
     background-repeat: no-repeat;
   }
   .TextoMain h1 {
-    font-size: 60px;
-    margin: 30px 60px 20px 40px;
+    font-size: 2rem;
+    margin: 20px 18px 0 18px;
   }
   .TextoMain p {
-    font-size: 40px;
-    margin: 0 60px 12px 40px;
+    font-size: 0.8rem;
+    margin: 0;
+    margin-left: 20px;
   }
   .botao {
-    font-size: 40px;
+    font-size: 1rem;
     padding: 10px;
     margin: 10px 30px 10px 0;
   }

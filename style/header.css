@@ -24,15 +24,22 @@ header {
     grid-template-columns: 1fr 1fr;
     background-color: #003049;
     clip-path: none;
+    padding: 0;
     margin: 0px;
-    padding: 5px;
     align-items: center;
   }
   header img {
     width: 150px;
   }
+  .HeaderMenu {
+    flex-wrap: wrap;
+  }
+
+  .HeaderMenu li {
+    padding: 8px;
+  }
 
   .HeaderMenu a {
-    font-size: 32px;
+    font-size: 1rem;
   }
 }

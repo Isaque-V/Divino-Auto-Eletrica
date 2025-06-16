@@ -33,15 +33,29 @@
 }
 
 @media (max-width: 800px) {
+  .LocalizacaoBg {
+    justify-items: center;
+  }
   .LocalizacaoBg h2 {
-    font-size: 80px;
+    font-size: 3rem;
     color: #003049;
+    margin: 0;
+    margin-bottom: 60px;
     text-align: center;
   }
   .LocalizacaoMapa {
+    max-width: 300px;
     grid-template-columns: 1fr;
+    font-size: 1rem;
+    margin: 0 60px 0 40px;
+    padding-bottom: 60px;
+  }
+  .LocalizacaoMapa iframe {
+    max-width: 300px;
   }
   .LocalizacaoMapaDesc {
     display: none;
   }
+}
+@media (max-width: 500px) {
 }

@@ -49,20 +49,32 @@
 }
 
 @media (max-width: 800px) {
+  #servicos ul {
+    display: block;
+    justify-items: center;
+  }
   #servicos img {
-    width: 100px;
+    width: 80px;
+    margin-bottom: 8px;
   }
   #servicos h2 {
-    font-size: 80px;
+    font-size: 3rem;
+    padding-top: 60px;
+    margin: 0;
+    margin-bottom: 60px;
+    letter-spacing: 4px;
     text-align: center;
   }
   #servicos p {
-    font-size: 24px;
+    font-size: 2rem;
   }
   #servicos li {
-    max-width: 200px;
+    justify-content: center;
+    max-width: 250px;
+    margin: 12px 0;
   }
   #servicos h3 {
-    padding-bottom: 120px;
+    padding-bottom: 60px;
+    font-size: 1.5rem;
   }
 }
